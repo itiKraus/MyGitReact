@@ -21,11 +21,7 @@ export default function Picture() {
           x.then(Response => Response.json()).then(data => setPicture(data)
            ).catch(er => console.log(er))
           })
-
-        
     }
-
-    
 
     return (
         <div>
